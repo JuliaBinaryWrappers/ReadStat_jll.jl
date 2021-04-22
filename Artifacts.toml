@@ -1,113 +1,115 @@
 [[ReadStat]]
-arch = "armv7l"
-git-tree-sha1 = "55f65607d64f0603efd9b66a7a0c3037946dfe13"
+arch = "aarch64"
+git-tree-sha1 = "d883538e574bf4604d1bead59a46740d625cff2b"
 libc = "glibc"
 os = "linux"
 
     [[ReadStat.download]]
-    sha256 = "b9335d17c4ee37b9d99fe9184d35ab73a6aa3837e8c701c853c0c4698bf98e6e"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.arm-linux-gnueabihf.tar.gz"
-[[ReadStat]]
-arch = "x86_64"
-git-tree-sha1 = "3a98db37aa30519af050aaabe836f6d1d8ab1646"
-libc = "glibc"
-os = "linux"
-
-    [[ReadStat.download]]
-    sha256 = "bfa94dae229964fcc498d6c2d47ae68289c5621a9764595b1a9ddb463a302780"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "12cc8d81d6f55171d5f30476492a2b7a29f292917530359165e04b950694bcd0"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.aarch64-linux-gnu.tar.gz"
 [[ReadStat]]
 arch = "aarch64"
-git-tree-sha1 = "b4a238828a49016faed959978e7317ac30e37d3f"
+git-tree-sha1 = "2f2ee59de2ed9d41d39637f7b16ec8adbdc5f4b7"
 libc = "musl"
 os = "linux"
 
     [[ReadStat.download]]
-    sha256 = "f579fc8692c976cc0b3007337c29b44800bf43e944cb96f6ed1d4594b5b6b1d9"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.aarch64-linux-musl.tar.gz"
+    sha256 = "0b2b7ebaf87376077fb4ed9aae722bc893bd502b7a81b7856d6ec44f59a60f8e"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.aarch64-linux-musl.tar.gz"
 [[ReadStat]]
-arch = "powerpc64le"
-git-tree-sha1 = "b6c710de9e9a92636fd4fa45be077c5933be2eb8"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "6a16cfcc5c5511792a44569a9bbf7ab02b9816c7"
 libc = "glibc"
 os = "linux"
 
     [[ReadStat.download]]
-    sha256 = "3a2fe4f8b833b696fb6713b23b371a8f04dff296f29612bfb9f828caabd17b2c"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "685ce5f2d58bb085de53f3d9c14958592ea396e617d946cddfecf7270d4d18d4"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.armv7l-linux-gnueabihf.tar.gz"
+[[ReadStat]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "9d2dbdfcafa34cd8aa39599e3552e795d28a7844"
+libc = "musl"
+os = "linux"
+
+    [[ReadStat.download]]
+    sha256 = "86b826a4d19f8025e952993e0f0d5b41b759ec138d1f5b3d3a42136734c27b3e"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.armv7l-linux-musleabihf.tar.gz"
+[[ReadStat]]
+arch = "i686"
+git-tree-sha1 = "22757df7543352746a78f8df58b59807565691a6"
+libc = "glibc"
+os = "linux"
+
+    [[ReadStat.download]]
+    sha256 = "99cde403f4f1fa40b270697b4c3ed4ae9c552ad4042c84616a85fa81e8194421"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.i686-linux-gnu.tar.gz"
+[[ReadStat]]
+arch = "i686"
+git-tree-sha1 = "d43327e664a51b45658e0a09cd1ef8cf0b1a28b6"
+libc = "musl"
+os = "linux"
+
+    [[ReadStat.download]]
+    sha256 = "a8326ae4fad89053574fdc482f619f3294148d407b95b6288e4eda4c179a5464"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.i686-linux-musl.tar.gz"
+[[ReadStat]]
+arch = "i686"
+git-tree-sha1 = "351fdfbff33a3f8bfef1ecce07693fc1b7ce623b"
+os = "windows"
+
+    [[ReadStat.download]]
+    sha256 = "f1e60030fd51c81b226b2c0fbeb96e72c6a65d92fa80870dcb5baa77b9da01bc"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.i686-w64-mingw32.tar.gz"
+[[ReadStat]]
+arch = "powerpc64le"
+git-tree-sha1 = "08201f8c41b7adb1ba1980e9b15b4530b8583da8"
+libc = "glibc"
+os = "linux"
+
+    [[ReadStat.download]]
+    sha256 = "f483a03ae441026f374de5bc5976b7c1acdd2588e95688badc26cf783c3d800a"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.powerpc64le-linux-gnu.tar.gz"
 [[ReadStat]]
 arch = "x86_64"
-git-tree-sha1 = "b72f62d9e70bbb365f167bcb7e4ca193a2583ab4"
+git-tree-sha1 = "3ce9ef1388b28493718c61a56d4c8815bacd4edd"
 os = "macos"
 
     [[ReadStat.download]]
-    sha256 = "fc9c0d80dfab86c55c4f57eb04e3be7b8573d3e2b36cb43907a76333175cab5d"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.x86_64-apple-darwin14.tar.gz"
+    sha256 = "96abca73c0ad6e115d76c7aa474ad9e6d5d314b5eafa455775f8db001f513665"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.x86_64-apple-darwin.tar.gz"
 [[ReadStat]]
 arch = "x86_64"
-git-tree-sha1 = "4ee0827bc454c117267bc56f0a26e1024cadc4c4"
-libc = "musl"
-os = "linux"
-
-    [[ReadStat.download]]
-    sha256 = "586ed3e5498ae89fbd5c3ee4f42093de8f43153f2605b4f8716dbb48c1074026"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.x86_64-linux-musl.tar.gz"
-[[ReadStat]]
-arch = "x86_64"
-git-tree-sha1 = "41bceeca455448abee862185789ffc7f303236ff"
-os = "windows"
-
-    [[ReadStat.download]]
-    sha256 = "6ed7e107504d20cbf72e2ccc8ecce22f974ba676771c475f14211705741a2086"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.x86_64-w64-mingw32.tar.gz"
-[[ReadStat]]
-arch = "i686"
-git-tree-sha1 = "bdc88c825a93e6d589a92901ec6f46225df3cc9c"
+git-tree-sha1 = "a2c39a0a2d1d7802151d4e135c738717f4f5b2e6"
 libc = "glibc"
 os = "linux"
 
     [[ReadStat.download]]
-    sha256 = "a690c56f88e36168fb2da89e416539385ed75ae2b2a0889087d0a2e717d29956"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.i686-linux-gnu.tar.gz"
+    sha256 = "daff6b94ddd6e35a4a552c9e84b0239b131da98d0c53485acfa0fd2a4335d87f"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.x86_64-linux-gnu.tar.gz"
 [[ReadStat]]
-arch = "aarch64"
-git-tree-sha1 = "ab86aaca868112f84d23c2e5d837efb0396cf283"
-libc = "glibc"
-os = "linux"
-
-    [[ReadStat.download]]
-    sha256 = "38900f27a832a1be46ac57f52d4d468bf593a052e34ee8b43284b525a8015131"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.aarch64-linux-gnu.tar.gz"
-[[ReadStat]]
-arch = "i686"
-git-tree-sha1 = "1cb60d3d327cba92eee5a72f59eb79de854ae2b0"
+arch = "x86_64"
+git-tree-sha1 = "73a84952a01aa6d7bfc5ef9258428481bd942eb0"
 libc = "musl"
 os = "linux"
 
     [[ReadStat.download]]
-    sha256 = "bdc9fac95346a2f34e78759891bc5cb6eff69277c0c11ed4e7d25f20bd4c10cb"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.i686-linux-musl.tar.gz"
+    sha256 = "05acf78da9127b161741563c249b30d9be4a681d4f0857b0fe528076b1d33f0d"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.x86_64-linux-musl.tar.gz"
 [[ReadStat]]
 arch = "x86_64"
-git-tree-sha1 = "f26bbdf6bfe74b023a5443def734bb9531d6d137"
+git-tree-sha1 = "08bfbdb1188e871dd82062e00140bf302401f2fe"
 os = "freebsd"
 
     [[ReadStat.download]]
-    sha256 = "739825d7efcbeed09e4f7aec4a0f62a9a3389368f836a43801f728e85e2db626"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "98f489d81cd96746cb88563cd357c95d06375144950a96b050f757d5bdfd4dbe"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.x86_64-unknown-freebsd.tar.gz"
 [[ReadStat]]
-arch = "i686"
-git-tree-sha1 = "0d92ee3015141725d044d8192c00ba9532bcc482"
+arch = "x86_64"
+git-tree-sha1 = "d840297724abe6caa44762930ce2e0cbde6f106b"
 os = "windows"
 
     [[ReadStat.download]]
-    sha256 = "3aeb2aa8b5471d08cacd1cc05cbfc758a095e468940e8e7172c172ac9cd13930"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.i686-w64-mingw32.tar.gz"
-[[ReadStat]]
-arch = "armv7l"
-git-tree-sha1 = "4dba9d6eab20148f3cc7576179bb5eb9ec3c52f5"
-libc = "musl"
-os = "linux"
-
-    [[ReadStat.download]]
-    sha256 = "2db680706a7d89a23bcd462cdfbb3c4be66bf9b04229dcea2b7e664e18312245"
-    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.1+0/ReadStat.v1.1.1.arm-linux-musleabihf.tar.gz"
+    sha256 = "6cbcf10ba3667db6ee7776009448c65ed9c639e57164bee8479e898abd403590"
+    url = "https://github.com/JuliaBinaryWrappers/ReadStat_jll.jl/releases/download/ReadStat-v1.1.5+0/ReadStat.v1.1.5.x86_64-w64-mingw32.tar.gz"
